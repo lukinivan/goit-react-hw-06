@@ -1,10 +1,13 @@
-import { Container, ContactBuilder } from "./components";
+import { Container, ContactForm, SearchBox, ContactList } from "./components";
 
 const App = () => {
   return (
     <>
       <Container>
-        <ContactBuilder />
+        <h1>Phonebook</h1>
+        <ContactForm />
+        <SearchBox />
+        <ContactList />
       </Container>
     </>
   );
